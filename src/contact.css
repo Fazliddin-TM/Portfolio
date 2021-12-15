@@ -1,0 +1,159 @@
+h1.hire__text {
+  font-size: 60px;
+}
+p.hire__text {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(29, 29, 36, 0.75);
+  font-weight: 400;
+}
+input.contact {
+  display: block;
+  width: 100%;
+  padding: 0px 20px;
+  border: 2x solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
+  height: 50px;
+  line-height: 46px;
+  margin: 20px 0;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  background: none;
+  border: 2px solid hsla(0, 0, 100%, 0.2);
+}
+textarea#massage {
+  height: 120px;
+  background: none;
+  padding: 0 20px;
+  width: 100%;
+  line-height: 46px;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  border: 2px solid hsla(0, 0%, 100%, 0.2);
+}
+button.btn.contact.pointer {
+  margin: 20px 0px;
+}
+.input__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact__name {
+  background: none;
+  border: 2px solid #6d6b04;
+  margin: 15px 15px;
+}
+.contact__email {
+  background: none;
+  border: 2px solid #6d6b04;
+  margin-bottom: 15px;
+}
+.contact__subject {
+  background: none;
+  border: 2px solid #6d6b04;
+}
+.contact {
+  height: 100vh;
+}
+@media only screen and (max-width:1024px){
+  h1.hire__text{
+    font-size: 60px;
+   }
+   p.hire__text{
+    font-size: 18px;
+    font-weight: 400;
+   }
+   strong{
+    font-size: 18px;
+   }
+   textarea#massage{
+     padding: 0 10px;
+     width: 100%;
+     height: 80px;
+   }
+   button.btn.contact.pointer {
+    width:100px ;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+   }
+}
+@media only screen and (max-width:425px){
+  h1.hire__text{
+    font-size: 30px;
+   }
+   p.hire__text{
+    font-size: 15px;
+   }
+   strong{
+    font-size: 15px;
+   }
+   textarea#massage{
+     padding: 0 10px;
+     width: 100%;
+     height: 80px;
+     font-size: 15px;
+   }
+  }
+  @media only screen and (max-width:768px){
+    button.btn.contact.pointer {
+      width:120px ;
+      height: 40px;
+      font-size: 12px;
+      margin-top: 25px;
+     }
+     textarea#massage{
+      margin-top: 25px;
+      font-size: 12px;
+     }
+  }
+  @media only screen and (max-width:375px){
+    h1.hire__text{
+      font-size: 25px;
+     }
+     p.hire__text{
+      font-size: 14px;
+     }
+     strong{
+      font-size: 14px;
+     }
+     textarea#massage{
+       padding: 0 10px;
+       width: 100%;
+       height: 75px;
+       font-size: 12px;
+     }
+    }
+
+@media only screen and (max-width:320px){
+  h1.hire__text{
+    font-size: 25px;
+   }
+   p.hire__text{
+    font-size: 13px;
+   }
+   strong{
+    font-size: 13px;
+   }
+   textarea#massage{
+     padding: 0 10px;
+     width: 150%;
+     height: 60px;
+   }
+   button.btn.contact.pointer {
+    width:100px ;
+    height: 30px;
+    font-size: 9px;
+    margin-top: 5px;
+   }
+   .input__box{
+     margin-left: 30px;
+   }
+}

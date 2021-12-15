@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and(max-width:425px) {
+ .footer{
+     margin-top: 100px;
+     top: 100px;
+ }   
+ span.copyright{
+     font-size: 5px;
+ }
+}
+@media only screen and (max-width: 425px){
+    .footer{
+        margin-top: 100px;
+        top: 100px;
+    }   
+    span.copyright{
+        font-size: 10px;
+    }
+   
+}

@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif
+}
+.service{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111;
+}
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+.skill__name{
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: upparcase;
+    margin: 20px 0;
+}
+.skill__bar{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+.skill__per{
+    height: 14px;
+    background: #f9004d;
+    border-radius: 3px;
+    position: relative; 
+    animation: fillBars 2.5s 1;
+}
+.skill__per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+.skill__per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+
+}
+.one{
+    max-width: 90%;
+}
+.two{
+    max-width: 70%;
+}
+.three{
+    max-width: 65%;
+}
+.four{
+    max-width: 57%;
+}
+@keyframes fillBars {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 425px){
+    
+   .skill__per {
+       margin-top: 25px;
+   }
+    
+}

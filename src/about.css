@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    background: #191919;
+    height: 100vh;
+}
+img.about__img{
+    border: 10px;
+    width: 100%;
+}
+.about__heading{
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat, sans-serif ;
+    font-size: 60px;
+    color: #fff;
+}
+button.about.btn.pointer{
+    text-transform: capitalize;
+    width: 195px;
+    height: 55px;
+    font-size: 18px;
+    transition: .4s ease;
+   
+}
+
+
+a.bottom__to__top{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    background-color: #f9004d;
+    border-radius: 50%;
+    display: none;
+    transition: .4s all ease;
+    align-items: center;
+    justify-content: center; 
+    z-index: 1000;
+}
+a.bottom__to__top.active{
+    display: flex;
+}
+
+
+
+.facebook{
+    margin-right: 20px;
+}
+.insta{
+    margin-right: 20px;
+}
+.linkedin{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.about__button{
+    padding: 20px 0px ;
+    margin-top: 50px;
+}
+.clone{
+    width: 100%;
+    display: flex;
+    /* margin-left: 31.25rem;
+    margin-top: 3rem; */
+    align-items: center;
+    justify-content: end;
+}
+/* responsive */
+
+
+@media only screen and (max-widht:2560px){
+    .clone{
+        margin-left: 1500px;
+    }
+}
+@media only screen and (max-widht:1440px){
+    .clone{
+        margin-left: 1000px;
+    }
+}
+@media only screen and (max-widht:1024px){
+    .p__color{
+        font-size: 15px!important;
+    }
+    button.about.btn.pointer{
+        padding: 20px 0px;
+       margin-top: 200px;
+    }
+}
+
+@media only screen and (max-widht:768px){
+    .clone{
+      margin-top: 25px;   
+     }
+     .about__button{
+        padding: 20px 0px ;
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 425px){
+    
+    h1.about__heading{
+        font-size: 20px;
+        height: auto;
+        margin-top: -25px;
+       }
+       .one{
+        margin-top: -30px;
+       }
+    p.about__text{
+        font-size: 9px;
+    }
+    button.about.btn.pointer {
+        width:100px ;
+        height: 30px;
+        font-size: 9px;
+        margin-top: -30px;
+        /* padding: 5px 10px; */
+    }
+    .clone{
+        margin-top: -25px;
+        
+    }
+    
+}
+@media only screen and (max-width:375px){
+    
+    h1.about__heading{
+        font-size: 20px;
+        height: auto;
+        margin-top: -25px;
+       }
+       .one{
+        margin-top: -30px;
+       }
+    p.about__text{
+        font-size: 8px;
+    }
+    button.about.btn.pointer {
+        width:80px ;
+        height: 20px;
+        font-size: 5px;
+        margin-top: -30px;
+    }
+    .clone{
+        margin-top: -25px;
+    }
+}
+@media only screen and (max-width: 320px){
+    h1.about__heading{
+        font-size: 18px;
+        height: auto;
+        margin-top: -25px;
+       }
+       .one{
+        margin-top: -30px;
+       }
+    p.about__text{
+        font-size: 6px;
+    }
+    button.about.btn.pointer {
+        width:60px ;
+        height: 15px;
+        font-size: 5px;
+        top: 0;
+        margin-top: -30px;
+
+    }
+}
