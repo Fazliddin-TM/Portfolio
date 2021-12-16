@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "./home.css";
 import logo from "./img/tm.png";
 
@@ -8,7 +8,7 @@ function Home() {
     const header = document.querySelector(".header");
     header.classList.toggle("active", window.scrollY > 0);
   });
-    const [show, setShow] = useState(true);
+   
 
   return (
     <div className="home" id="Home">

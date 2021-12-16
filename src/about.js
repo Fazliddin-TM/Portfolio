@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import about_img from "./img/removv.png";
+// import about_img from "./img/removv.png";
 
 function About() {
   // Up To Top Btn
@@ -26,10 +26,10 @@ function About() {
                 social media addresses
               </p>
               <div className="about__button d__flex align__items__center">
-                <a href="#">
+                <a href="/">
                   <button className="about btn pointer">Download Cv</button>
                 </a>
-                <a href="#">
+                <a href="/">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
               </div>
@@ -107,7 +107,7 @@ function About() {
       </div>
      
       <div className="up__to__top__btn">
-        <a href="#" className="bottom__to__top">
+        <a href="/" className="bottom__to__top">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
